@@ -1,19 +1,31 @@
-# vue
+# MAKE YOUR BURGER
 
-## Project setup
-```
-npm install
+## Passos para inicar o projeto
+
+1. Clone o repositório
+```shell
+git clone https://github.com/FHenriqueZiimer/make-your-burguer.git
 ```
 
-### Compiles and hot-reloads for development
+2. Acesse a pasta raiz do projeto e rode o comando:
+
+```shell
+npm i
 ```
+
+O gerenciador de pacotes irá instalar todas as dependências seguindo o arquivo package.json.
+
+Após estar com todos os pacotes instalados, execute o comando:
+
+```shell
 npm run serve
 ```
+Pronto! A app irá iniciar localmente
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Passo para inicar o backend
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Execute o comando:
+
+```shell
+npm run backend
+```
